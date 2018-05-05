@@ -18,7 +18,7 @@ header {
 }
 
 header img {
-  width: 35%;
+  width: 10%;
 }
 
 main {
@@ -32,7 +32,7 @@ nav {
 }
 
 .headline {
-  background-color: RGBA(44, 151, 203, 1.00);
+  background-color: #6bc2be;
   color: white;
   padding: 10px;
   font-size: 0.8em;
@@ -67,6 +67,7 @@ article {
   position: absolute;
   right: 15px;
   bottom: 25px;
+  color: #6bc2be;
 }
 
 .tijdstip {
@@ -97,13 +98,14 @@ article:hover {
 }
 
 .meld {
-      background-color: RGBA(22, 40, 74, 1.00);
+      background-color: #6bc2be;
       color: RGBA(182, 198, 230, 1.00);
       padding: 15px;
 }
 
 .meld h3 {
-      color: RGBA(93, 252, 113, 1.00);
+      color: black;
+      font-weight: bold;
       margin-bottom: 10px;
       font-size: 0.9em;
 }
@@ -111,6 +113,7 @@ article:hover {
 .meld p {
       margin-bottom: 10px;
       font-size: 0.9em;
+      color: white;
 }
 
 .meld button {
@@ -123,7 +126,8 @@ article:hover {
 }
 
 .meld button:hover {
-      background-color: RGBA(93, 252, 113, 1.00);
+      background-color: black;
+      color: white;
 }
 
 .app {
@@ -143,7 +147,7 @@ article:hover {
 }
 
 .app img {
-      width: 100px;
+      width: 50px;
       position: absolute;
       top: 15px;
       right: 15px;
@@ -173,7 +177,7 @@ article:hover {
     }
 
     header img {
-      width: 28%;
+      width: 5%;
     }
   }
 
@@ -188,7 +192,7 @@ article:hover {
     }
 
     header img {
-      width: 25%;
+      width: 5%;
     }
 
     footer {
