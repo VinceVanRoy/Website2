@@ -1,0 +1,199 @@
+body {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  line-height: 1.4em;
+  font-family: "helvetica";
+  color: RGBA(22, 40, 74, 1.00);
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  margin: 15px;
+}
+
+header img {
+  width: 35%;
+}
+
+main {
+  margin: 15px 15px;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.headline {
+  background-color: RGBA(44, 151, 203, 1.00);
+  color: white;
+  padding: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+  border-radius: 15px;
+  margin: 15px 0;
+}
+
+article {
+  border-bottom: 1px solid RGBA(248, 248, 249, 1.00);
+  margin-top: 25px;
+  padding: 0 5px 15px 5px;
+  position: relative;
+}
+
+.categorie {
+  display: inline-block;
+  padding: 5px 10px 5px 5px;
+  margin-left: -5px;
+  font-weight: bold;
+  font-size: 0.95em;
+  border-radius: 0 15px 15px 0;
+  background-color: RGBA(199, 204, 212, 1.00);
+}
+
+.tekst {
+  margin: 10px 0;
+}
+
+.auteur {
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+}
+
+.tijdstip {
+  color: RGBA(174, 180, 192, 1.00);
+  margin: 10px 0;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+header a {
+      color: RGBA(22, 40, 74, 1.00);
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 5px;
+}
+
+a:hover {
+      text-decoration: underline;
+}
+
+article:hover {
+      background-color: RGBA(241, 242, 244, 1.00);
+}
+
+.meld {
+      background-color: RGBA(22, 40, 74, 1.00);
+      color: RGBA(182, 198, 230, 1.00);
+      padding: 15px;
+}
+
+.meld h3 {
+      color: RGBA(93, 252, 113, 1.00);
+      margin-bottom: 10px;
+      font-size: 0.9em;
+}
+
+.meld p {
+      margin-bottom: 10px;
+      font-size: 0.9em;
+}
+
+.meld button {
+      color: RGBA(22, 40, 74, 1.00);
+      padding: 5px 10px 5px 10px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 0.9em;
+      margin-bottom: 10px;
+}
+
+.meld button:hover {
+      background-color: RGBA(93, 252, 113, 1.00);
+}
+
+.app {
+      background-color: RGBA(241, 242, 244, 1.00);
+      color: RGBA(144, 152, 168, 1.00);
+      padding: 15px 15px 50px 15px;
+      position: relative;
+}
+
+.app h3 {
+      margin-bottom: 10px;
+}
+
+.app p {
+      width: 80%;
+      font-size: 0.8em;
+}
+
+.app img {
+      width: 100px;
+      position: absolute;
+      top: 15px;
+      right: 15px;
+}
+
+.app a {
+      color: RGBA(144, 152, 168, 1.00);
+}
+
+@supports (grid-area: auto) {
+  @media (min-width: 800px) {
+    body {
+      max-width: none;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    article h2 {
+      height: 80px;
+    }
+
+    article .tekst {
+      height: 150px;
+    }
+
+    header img {
+      width: 28%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    article .tekst {
+      height: 160px;
+    }
+
+    header img {
+      width: 25%;
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
