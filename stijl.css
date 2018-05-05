@@ -55,7 +55,8 @@ article {
   margin-left: -5px;
   font-weight: bold;
   font-size: 0.95em;
-  background-color: RGBA(199, 204, 212, 1.00);
+  background-color: #6bc2be;
+  color: white;
 }
 
 .slider {
@@ -75,6 +76,15 @@ article {
 
 .tekst {
   margin: 10px 0;
+}
+
+.titel {
+  display: inline-block;
+  padding: 5px 10px 5px 5px;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 0.95em;
 }
 
 .auteur {
@@ -110,6 +120,19 @@ a:hover {
 
 article:hover {
       background-color: RGBA(241, 242, 244, 1.00);
+}
+
+article:nth-child(1) a {
+  display: block;
+  text-decoration: none;
+  color: #6bc2be;
+}
+
+.platen {
+  height: auto;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .meld {
