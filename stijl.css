@@ -1,5 +1,4 @@
 body {
-  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   font-size: 1em;
@@ -165,7 +164,7 @@ article:hover {
 
     main {
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
 
     article h2 {
@@ -184,7 +183,7 @@ article:hover {
   @media (min-width: 1024px) {
     main {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
     }
 
     article .tekst {
@@ -197,7 +196,7 @@ article:hover {
 
     footer {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
   }
 }
