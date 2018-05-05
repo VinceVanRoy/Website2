@@ -231,6 +231,10 @@ article:hover {
       text-align: center;
       font-size: 1.2em;
     }
+
+    .meld{
+      text-align: center;
+    }
   }
 
   @media (min-width: 1024px) {
