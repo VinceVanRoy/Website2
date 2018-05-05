@@ -84,7 +84,7 @@ article {
   margin-left: -5px;
   margin-bottom: 5px;
   font-weight: bold;
-  font-size: 0.95em;
+  font-size: 1.2em;
 }
 
 .auteur {
@@ -126,6 +126,7 @@ article:nth-child(1) a {
   display: block;
   text-decoration: none;
   color: #6bc2be;
+  padding-bottom: 10px;
 }
 
 .platen {
