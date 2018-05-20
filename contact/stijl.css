@@ -7,6 +7,7 @@ body {
   font-family: "helvetica";
   color: RGBA(22, 40, 74, 1.00);
   position: relative;
+  background-color: #f1ece6;
 }
 
 img {

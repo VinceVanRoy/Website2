@@ -7,6 +7,7 @@ body {
   font-family: "helvetica";
   color: RGBA(22, 40, 74, 1.00);
   position: relative;
+  background-color: #f1ece6;
 }
 
 img {
@@ -79,6 +80,15 @@ article {
   right: 15px;
   bottom: 25px;
   color: #6bc2be;
+  text-decoration: none;
+}
+
+.auteur:hover {
+  border-radius: 10px 10px 10px 10px;
+  opacity: 50%;
+  background-color: white;
+  padding: 10px;
+  text-decoration: underline;
 }
 
 .tijdstip {
@@ -112,7 +122,6 @@ article:nth-child(2) a {
   display: block;
   text-decoration: none;
   color: #6bc2be;
-  padding-bottom: 10px;
 }
 
 .platen {

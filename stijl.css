@@ -6,6 +6,7 @@ body {
   line-height: 1.4em;
   font-family: "helvetica";
   color: RGBA(22, 40, 74, 1.00);
+  background-color: #f1ece6;
   position: relative;
 }
 
@@ -94,6 +95,15 @@ article {
   right: 15px;
   bottom: 25px;
   color: #6bc2be;
+  text-decoration: none;
+}
+
+.auteur:hover {
+  border-radius: 10px 10px 10px 10px;
+  opacity: 50%;
+  background-color: white;
+  padding: 10px;
+  text-decoration: underline;
 }
 
 .tijdstip {
@@ -281,13 +291,17 @@ article:nth-child(2) a {
     }
 
     article:nth-child(4) {
+      grid-column: 1/2.5;
+    }
+
+    article:nth-child(5) {
       grid-column: 1/4;
       text-align: center;
       margin-left: auto;
       margin-right: auto;
     }
 
-    article:nth-child(4) .tekst{
+    article:nth-child(5) .tekst{
       grid-column: 1/4;
       min-width: 950px;
       max-width: 1200px;
@@ -296,11 +310,11 @@ article:nth-child(2) a {
       margin-right: auto;
     }
 
-    article:nth-child(4) .tijdstip{
+    article:nth-child(5) .tijdstip{
       text-align: left;
     }
 
-    article:nth-child(4) .categorie{
+    article:nth-child(5) .categorie{
       width: 400px;
       border-radius: 15px;
     }
