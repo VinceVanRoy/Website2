@@ -80,6 +80,11 @@ article {
   right: 15px;
   bottom: 25px;
   color: #6bc2be;
+  text-decoration: none;
+}
+
+.auteur:hover {
+  text-decoration: underline;
 }
 
 .tijdstip {
@@ -114,6 +119,10 @@ article:nth-child(2) a {
   text-decoration: none;
   color: #6bc2be;
   padding-bottom: 10px;
+}
+
+article .tekst {
+  text-align: justify;
 }
 
 .platen {
@@ -218,24 +227,71 @@ article:nth-child(2) a {
     }
 
     main {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
     }
 
-    article h2 {
-      height: auto;
+    article {
+      display: none;
     }
 
-    article .tekst {
-      height: auto;
+    .parallax {
+        /* The image used */
+        background-image: url("Louis.jpg");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
-    article:nth-child(3) {
-      grid-column: 1;
+    .caption {
+      position: absolute;
+      left: 10%;
+      top: 30%;
+      width: 100%;
+      color: black;
+      opacity: 0.8;
     }
 
-    article .grootLogo {
-      width: 40%;
+    .cap {
+      font-size: 40px;
+      font-family: helvetica;
+      font-weight: bold;
+      padding: 18px;
+      color: black;
+      background-color: white;
+      border-radius: 3px;
+    }
+
+    .parallax2 {
+        /* The image used */
+        background-image: url("The molly brothers.jpg");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax3 {
+        /* The image used */
+        background-image: url("Bob joy.jpg");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     header img {
@@ -254,16 +310,24 @@ article:nth-child(2) a {
 
   @media (min-width: 1024px) {
     main {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
     }
 
-    article .tekst {
-      height: auto;
+    article {
+      display: none;
     }
 
-    article .grootLogo {
-      width: 10%;
+    .parallax {
+        /* The image used */
+        background-image: url("Louis.jpg");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     header img {
