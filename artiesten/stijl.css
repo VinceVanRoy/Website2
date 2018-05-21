@@ -220,6 +220,18 @@ article .tekst {
       color: RGBA(144, 152, 168, 1.00);
 }
 
+.parallax {
+  display: none;
+}
+
+.parallax2 {
+  display: none;
+}
+
+.parallax3 {
+  display: none;
+}
+
 @supports (grid-area: auto) {
   @media (min-width: 800px) {
     body {
@@ -245,12 +257,13 @@ article .tekst {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: block;
     }
 
     .caption {
       position: absolute;
       left: 10%;
-      top: 30%;
+      top: 10%;
       width: 100%;
       color: black;
       opacity: 0.8;
@@ -278,6 +291,7 @@ article .tekst {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: block;
     }
 
     .parallax3 {
@@ -292,6 +306,7 @@ article .tekst {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: block;
     }
 
     header img {
