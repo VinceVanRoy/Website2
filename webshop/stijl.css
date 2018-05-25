@@ -232,12 +232,19 @@ article:nth-child(2) a {
       grid-template-columns: 1fr 1fr;
     }
 
+    .tijdstip {
+      position: absolute;
+      bottom: 15px;
+      left: 10px;
+    }
+
     article h2 {
       height: auto;
     }
 
     article .tekst {
       height: auto;
+      margin-bottom: 40px;
     }
 
     article:nth-child(3) {
