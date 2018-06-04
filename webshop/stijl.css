@@ -221,6 +221,10 @@ article:nth-child(2) a {
       color: RGBA(144, 152, 168, 1.00);
 }
 
+.uno {
+  width: 20px;
+}
+
 @supports (grid-area: auto) {
   @media (min-width: 800px) {
     body {
@@ -266,6 +270,10 @@ article:nth-child(2) a {
 
     .meld{
       text-align: center;
+    }
+
+    .last {
+      grid-column: 1/4;
     }
   }
 
